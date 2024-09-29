@@ -1,0 +1,19 @@
+.game-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .game-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.05);
+  }
+  
